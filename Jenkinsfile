@@ -10,8 +10,9 @@ pipeline {
 
        stage('NPM Setup') {
           steps {
-             sh 'npm install',
-		      echo "start build"
+		  echo "start build"
+             sh 'npm install'
+           
          }
        }
 
